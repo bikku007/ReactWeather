@@ -7,12 +7,21 @@ var React = require('react');
 //     );
 //   }
 // });
+var {Link} = require('react-router');
 
 var Examples = () =>{
   return (
     <div>
-      <h3>Example component!</h3>
-      <p>Welcome to example component page!</p>
+      <h1 className='text-center'>Example</h1>
+      <p>Here are a few example location to try out:</p>
+      <ol>
+        <li>
+          <Link to='/?location=Bangalore'>Bangalore</Link>
+        </li>
+        <li>
+          <Link to='/?location=Mumbai'>Mumbai</Link>
+        </li>
+      </ol>
     </div>
   );
 };
