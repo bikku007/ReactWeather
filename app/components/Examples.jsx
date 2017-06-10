@@ -21,6 +21,9 @@ var Examples = () =>{
         <li>
           <Link to='/?location=Mumbai'>Mumbai</Link>
         </li>
+        <li>
+          <Link to='/?location=Berhampur'>Berhampur</Link>
+        </li>
       </ol>
     </div>
   );
